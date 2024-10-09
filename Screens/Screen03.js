@@ -12,7 +12,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Apple',
             price: '28.00',
-            image: require('../assets/Data/Image 101.png'),
+            image: require('../assets/Data/Image101.png'),
             sl: 5
         },
         {
@@ -20,7 +20,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Pear',
             price: '28.00',
-            image: require('../assets/Data/Image 107.png'),
+            image: require('../assets/Data/Image107.png'),
             sl: 5
         },
         ,
@@ -29,7 +29,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Coconut',
             price: '28.00',
-            image: require('../assets/Data/Image 105.png'),
+            image: require('../assets/Data/Image105.png'),
             sl: 5
         },
         ,
@@ -38,7 +38,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Orange',
             price: '28.00',
-            image: require('../assets/Data/Image 106.png'),
+            image: require('../assets/Data/Image106.png'),
             sl: 5
         },
         {
@@ -46,7 +46,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Coconut',
             price: '28.00',
-            image: require('../assets/Data/Image 105.png'),
+            image: require('../assets/Data/Image105.png'),
             sl: 5
         },
         ,
@@ -55,7 +55,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Orange',
             price: '28.00',
-            image: require('../assets/Data/Image 106.png'),
+            image: require('../assets/Data/Image106.png'),
             sl: 5
         },
         {
@@ -63,7 +63,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Coconut',
             price: '28.00',
-            image: require('../assets/Data/Image 105.png'),
+            image: require('../assets/Data/Image105.png'),
             sl: 5
         },
         ,
@@ -72,7 +72,7 @@ const Screen03 = ({ navigation }) => {
             type: 'Vegetable',
             name: 'Orange',
             price: '28.00',
-            image: require('../assets/Data/Image 106.png'),
+            image: require('../assets/Data/Image106.png'),
             sl: 5
         },
         {
@@ -80,7 +80,7 @@ const Screen03 = ({ navigation }) => {
             type: 'SeaFood',
             name: 'SeaFood_1',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png'),
+            image: require('../assets/Data/Image95.png'),
             sl: 5
         },
         ,
@@ -89,7 +89,7 @@ const Screen03 = ({ navigation }) => {
             type: 'SeaFood',
             name: 'SeaFood_2',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png'),
+            image: require('../assets/Data/Image95.png'),
             sl: 5
         },
         {
@@ -97,7 +97,7 @@ const Screen03 = ({ navigation }) => {
             type: 'SeaFood',
             name: 'SeaFood_3',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png'),
+            image: require('../assets/Data/Image95.png'),
             sl: 5
         },
         {
@@ -105,7 +105,7 @@ const Screen03 = ({ navigation }) => {
             type: 'SeaFood',
             name: 'SeaFood_4',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png'),
+            image: require('../assets/Data/Image95.png'),
             sl: 5
         },
         {
@@ -113,7 +113,7 @@ const Screen03 = ({ navigation }) => {
             type: 'SeaFood',
             name: 'SeaFood_5',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png'),
+            image: require('../assets/Data/Image95.png'),
             sl: 5
         }
 
@@ -173,7 +173,7 @@ const Screen03 = ({ navigation }) => {
                 <TouchableOpacity
                     onPress={() => navigation.navigate("Screen02")}
                 >
-                    <Image source={require('../assets/Data/Image 183.png')}></Image>
+                    <Image source={require('../assets/Data/Image183.png')}></Image>
                 </TouchableOpacity>
                 <Text style={{ fontSize: 25, color: 'green', fontWeight: 'bold', marginVertical: 10 }}>
                     My Basket
@@ -195,19 +195,19 @@ const Screen03 = ({ navigation }) => {
                             <Text style={{ fontSize: 18, color: 'silver' }}>{item.name}</Text>
                             <View style={{ flexDirection: 'row' }}>
 
-                                <Image source={require('../assets/Data/Image 180.png')} style={{
+                                <Image source={require('../assets/Data/Image180.png')} style={{
                                     width: 15, height: 15, marginRight: 10
                                 }} />
-                                <Image source={require('../assets/Data/Image 180.png')} style={{
+                                <Image source={require('../assets/Data/Image180.png')} style={{
                                     width: 15, height: 15, marginRight: 10
                                 }} />
-                                <Image source={require('../assets/Data/Image 180.png')} style={{
+                                <Image source={require('../assets/Data/Image180.png')} style={{
                                     width: 15, height: 15, marginRight: 10
                                 }} />
-                                <Image source={require('../assets/Data/Image 180.png')} style={{
+                                <Image source={require('../assets/Data/Image180.png')} style={{
                                     width: 15, height: 15, marginRight: 10
                                 }} />
-                                <Image source={require('../assets/Data/Image 180.png')} style={{
+                                <Image source={require('../assets/Data/Image180.png')} style={{
                                     width: 15, height: 15, marginRight: 10
                                 }} />
                             </View>
@@ -215,12 +215,12 @@ const Screen03 = ({ navigation }) => {
                         </View>
                         <View style={{ marginLeft: 64, flexDirection: 'row', alignItems: 'center' }}>
 
-                            <Image source={require('../assets/Data/Image 176.png')}
+                            <Image source={require('../assets/Data/Image176.png')}
                                 style={{ height: 26, width: 26, marginVertical: 5 }}
 
                             />
                             <Text style={{ fontSize: 20, marginHorizontal: 10 }}>{item.sl}</Text>
-                            <Image source={require('../assets/Data/Image 175.png')}
+                            <Image source={require('../assets/Data/Image175.png')}
                                 style={{ height: 26, width: 26, marginVertical: 5 }}
                             />
 
@@ -238,32 +238,32 @@ const Screen03 = ({ navigation }) => {
 
                 </View>
                 <View
-                style={{
-                    flexDirection:'row',
-                    justifyContent: 'center',
-                }}
-                >
-
-                <TouchableOpacity
                     style={{
-                        backgroundColor: 'green',
-
-                        borderRadius: 40,
-                        width: 240,
-                        height: 50,
+                        flexDirection: 'row',
                         justifyContent: 'center',
-                        alignItems: 'center',
-                        marginLeft: '90',
-                        marginVertical: 20
                     }}
-                    onPress={()=>navigation.navigate("Screen01")}
                 >
-                    <Text style={{ fontSize: 20, color: 'white' }}>Payment</Text>
-                </TouchableOpacity>
+
+                    <TouchableOpacity
+                        style={{
+                            backgroundColor: 'green',
+
+                            borderRadius: 40,
+                            width: 240,
+                            height: 50,
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            marginLeft: '90',
+                            marginVertical: 20
+                        }}
+                        onPress={() => navigation.navigate("Screen01")}
+                    >
+                        <Text style={{ fontSize: 20, color: 'white' }}>Payment</Text>
+                    </TouchableOpacity>
                 </View>
             </View>
 
-        </ScrollView>
+        </ScrollView >
     )
 }
 

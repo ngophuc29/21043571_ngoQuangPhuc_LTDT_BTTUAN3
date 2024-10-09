@@ -4,21 +4,21 @@ import { FlatList, TextInput } from 'react-native-web'
 
 
 
-const Screen02 = ({navigation}) => {
+const Screen02 = ({ navigation }) => {
     const [data, setData] = useState([
         {
             key: 1,
             type: 'Vegetable',
             name: 'Apple',
             price: '28.00',
-            image: require('../assets/Data/Image 101.png')
+            image: require('../assets/Data/Image101.png')
         },
         {
             key: 1,
             type: 'Vegetable',
             name: 'Pear',
             price: '28.00',
-            image: require('../assets/Data/Image 107.png')
+            image: require('../assets/Data/Image107.png')
         },
         ,
         {
@@ -26,7 +26,7 @@ const Screen02 = ({navigation}) => {
             type: 'Vegetable',
             name: 'Coconut',
             price: '28.00',
-            image: require('../assets/Data/Image 105.png')
+            image: require('../assets/Data/Image105.png')
         },
         ,
         {
@@ -34,14 +34,14 @@ const Screen02 = ({navigation}) => {
             type: 'Vegetable',
             name: 'Orange',
             price: '28.00',
-            image: require('../assets/Data/Image 106.png')
+            image: require('../assets/Data/Image106.png')
         },
         {
             key: 1,
             type: 'Vegetable',
             name: 'Coconut',
             price: '28.00',
-            image: require('../assets/Data/Image 105.png')
+            image: require('../assets/Data/Image105.png')
         },
         ,
         {
@@ -49,14 +49,14 @@ const Screen02 = ({navigation}) => {
             type: 'Vegetable',
             name: 'Orange',
             price: '28.00',
-            image: require('../assets/Data/Image 106.png')
+            image: require('../assets/Data/Image106.png')
         },
         {
             key: 1,
             type: 'Vegetable',
             name: 'Coconut',
             price: '28.00',
-            image: require('../assets/Data/Image 105.png')
+            image: require('../assets/Data/Image105.png')
         },
         ,
         {
@@ -64,14 +64,14 @@ const Screen02 = ({navigation}) => {
             type: 'Vegetable',
             name: 'Orange',
             price: '28.00',
-            image: require('../assets/Data/Image 106.png')
+            image: require('../assets/Data/Image106.png')
         },
         {
             key: 1,
             type: 'SeaFood',
             name: 'SeaFood_1',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png')
+            image: require('../assets/Data/Image95.png')
         },
         ,
         {
@@ -79,28 +79,28 @@ const Screen02 = ({navigation}) => {
             type: 'SeaFood',
             name: 'SeaFood_2',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png')
+            image: require('../assets/Data/Image95.png')
         },
         {
             key: 1,
             type: 'SeaFood',
             name: 'SeaFood_3',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png')
+            image: require('../assets/Data/Image95.png')
         },
         {
             key: 1,
             type: 'SeaFood',
             name: 'SeaFood_4',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png')
+            image: require('../assets/Data/Image95.png')
         },
         {
             key: 1,
             type: 'SeaFood',
             name: 'SeaFood_5',
             price: '28.00',
-            image: require('../assets/Data/Image 95.png')
+            image: require('../assets/Data/Image95.png')
         }
 
         ,
@@ -162,13 +162,13 @@ const Screen02 = ({navigation}) => {
                 <View>
 
                     <TouchableOpacity>
-                        <Image source={require('../assets/Data/Image 183.png')} />
+                        <Image source={require('../assets/Data/Image183.png')} />
                     </TouchableOpacity>
                 </View>
                 <View>
 
                     <TouchableOpacity>
-                        <Image source={require('../assets/Data/Image 182.png')} />
+                        <Image source={require('../assets/Data/Image182.png')} />
                     </TouchableOpacity>
 
                 </View>
@@ -284,7 +284,7 @@ const Screen02 = ({navigation}) => {
 
                         }}
                     >
-                        <TouchableOpacity onPress={()=>navigation.navigate("Screen03")}>
+                        <TouchableOpacity onPress={() => navigation.navigate("Screen03")}>
                             <Image source={item.image} width={150} height={150} />
                         </TouchableOpacity>
                         <Text style={{ fontSize: 20, fontWeight: 'bold', marginTop: 20 }}>{item.name}</Text>

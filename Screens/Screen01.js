@@ -15,11 +15,11 @@ const Screen01 = ({ navigation }) => {
                 <Image source={require('../assets/Data/Image_96.png')}
                     style={{ width: 150, height: 150, marginLeft: 215 }}
                 />
-                <Image source={require('../assets/Data/Image 95.png')}
+                <Image source={require('../assets/Data/Image95.png')}
                     style={{ width: 150, height: 150, marginLeft: 20 }}
 
                 />
-                <Image source={require('../assets/Data/Image 97.png')}
+                <Image source={require('../assets/Data/Image97.png')}
                     style={{ width: 150, height: 150, marginLeft: 215 }}
 
                 />
